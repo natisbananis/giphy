@@ -12,3 +12,8 @@ footer {
     padding-top: 100px;
     margin: 50px 0;
 }
+.email{
+    display:flex;
+    justify-content:center;
+    
+}
