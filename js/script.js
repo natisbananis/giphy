@@ -15,10 +15,14 @@ $("#search-button").click(function(){
             var randIndex = Math.floor(Math.random() * response.data.length);
             $('.gallery').html(
                 '<div class="col-md-offset-4 col-md-4 thumb">\
-                    <a class="thumbnail" href =' + response.data[randIndex].images.fixed_width.url + '>\
+                    <a class="thumbnail" href =' +'mailto:address@email.com'+ '>\
                         <img src=' + response.data[randIndex].images.fixed_width.url + '/>\
                     </a>\
                 </div>'
+
+                
+                
+                
             
             );
         },
